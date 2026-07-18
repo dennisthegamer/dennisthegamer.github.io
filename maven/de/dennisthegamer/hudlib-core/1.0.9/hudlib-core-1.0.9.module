@@ -1,0 +1,80 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "de.dennisthegamer",
+    "module": "hudlib-core",
+    "version": "1.0.9",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "9.6.1"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 21,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api"
+      },
+      "files": [
+        {
+          "name": "hudlib-core-1.0.9.jar",
+          "url": "hudlib-core-1.0.9.jar",
+          "size": 150483,
+          "sha512": "9d654e0ec6fe3f105b132609265a063c22da5304b43f6155025ffd0acdcd78240e2af74977d0ed6ee48141815bccc4cf818e73569f0cddec736c1faadfbad9e8",
+          "sha256": "8896037b686370b6297a4bbf5e82a61b503f94a5dfa19ab4d3af56425dff4e4c",
+          "sha1": "bc411f7cbcf0db423603ff4c83caff926414a177",
+          "md5": "9f9848c7e9427d67b2b9083775a26954"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 21,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "hudlib-core-1.0.9.jar",
+          "url": "hudlib-core-1.0.9.jar",
+          "size": 150483,
+          "sha512": "9d654e0ec6fe3f105b132609265a063c22da5304b43f6155025ffd0acdcd78240e2af74977d0ed6ee48141815bccc4cf818e73569f0cddec736c1faadfbad9e8",
+          "sha256": "8896037b686370b6297a4bbf5e82a61b503f94a5dfa19ab4d3af56425dff4e4c",
+          "sha1": "bc411f7cbcf0db423603ff4c83caff926414a177",
+          "md5": "9f9848c7e9427d67b2b9083775a26954"
+        }
+      ]
+    },
+    {
+      "name": "sourcesElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "hudlib-core-1.0.9-sources.jar",
+          "url": "hudlib-core-1.0.9-sources.jar",
+          "size": 146372,
+          "sha512": "22873ab0841979f13d284d3b93d9dbff463726ffcf20cef91ae9f3ee7c91751fd03c6fb3c5b2bcd6d3cda4dbaa665d9830c454d07e443f4c2999627c1e3c7774",
+          "sha256": "d904b172647327fa1ba2678334132ab966ef6777a8f640e40da0a1117f03a4c2",
+          "sha1": "6b9f9e130cb63c6c1547ec5502f965fa30c6fc8a",
+          "md5": "e4c5cbf88e2641e3aaf7e373e93f6f7d"
+        }
+      ]
+    }
+  ]
+}
