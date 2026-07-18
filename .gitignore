@@ -1,0 +1,4 @@
+# Der Pages-Workflow laedt das gesamte Repo-Root hoch (path: '.'). Was hier nicht
+# ignoriert wird, kann durch ein versehentliches `git add .` oeffentlich werden.
+.superpowers/
+docs/superpowers/

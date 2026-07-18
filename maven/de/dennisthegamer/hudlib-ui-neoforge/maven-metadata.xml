@@ -6,9 +6,26 @@
     <latest>1.1.1+mc26.2</latest>
     <release>1.1.1+mc26.2</release>
     <versions>
+      <version>1.0.1+mc1.21.5</version>
+      <version>1.0.2+mc1.21.5</version>
+      <version>1.0.3+mc1.21.5</version>
+      <version>1.0.4+mc1.21.5</version>
+      <version>1.0.5+mc1.21-1.21.5</version>
+      <version>1.0.5+mc1.21.5</version>
+      <version>1.0.5+mc1.21.9-1.21.11</version>
+      <version>1.0.6+mc1.21-1.21.5</version>
+      <version>1.0.6+mc1.21.9-1.21.11</version>
+      <version>1.0.7+mc1.21-1.21.8</version>
+      <version>1.0.7+mc1.21.9-1.21.11</version>
+      <version>1.0.8+mc1.21-1.21.8</version>
+      <version>1.0.8+mc1.21.9-1.21.11</version>
+      <version>1.0.9+mc1.21-1.21.8</version>
+      <version>1.0.9+mc1.21.9-1.21.11</version>
+      <version>1.1.0+mc26.1</version>
+      <version>1.1.0+mc26.2</version>
       <version>1.1.1+mc26.1</version>
       <version>1.1.1+mc26.2</version>
     </versions>
-    <lastUpdated>20260718183116</lastUpdated>
+    <lastUpdated>20260718211442</lastUpdated>
   </versioning>
 </metadata>
