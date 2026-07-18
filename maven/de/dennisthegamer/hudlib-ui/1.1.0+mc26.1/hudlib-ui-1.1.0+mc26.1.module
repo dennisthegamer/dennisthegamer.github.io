@@ -1,0 +1,98 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "de.dennisthegamer",
+    "module": "hudlib-ui",
+    "version": "1.1.0+mc26.1",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "9.6.1"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 25,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "de.dennisthegamer",
+          "module": "hudlib-core",
+          "version": {
+            "requires": "1.1.0"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "hudlib-ui-1.1.0+mc26.1.jar",
+          "url": "hudlib-ui-1.1.0+mc26.1.jar",
+          "size": 167340,
+          "sha512": "a62b1efdbafa09acc97685d399fed32a60cdc17cfa3496fd3296436ea266c543242ef1e030fb38452f99be10ec315d76e92cc69d622ae206c888c246e22dc6a5",
+          "sha256": "ded7db30b3c329b792b8ee2184fbd789a4bfe4c1e8fb6d00104d1c634b36a0e4",
+          "sha1": "699a93ed6a3c78a0dd471a39d2944080627bea5a",
+          "md5": "db87415fd943612242161546f227ff5a"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 25,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "de.dennisthegamer",
+          "module": "hudlib-core",
+          "version": {
+            "requires": "1.1.0"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "hudlib-ui-1.1.0+mc26.1.jar",
+          "url": "hudlib-ui-1.1.0+mc26.1.jar",
+          "size": 167340,
+          "sha512": "a62b1efdbafa09acc97685d399fed32a60cdc17cfa3496fd3296436ea266c543242ef1e030fb38452f99be10ec315d76e92cc69d622ae206c888c246e22dc6a5",
+          "sha256": "ded7db30b3c329b792b8ee2184fbd789a4bfe4c1e8fb6d00104d1c634b36a0e4",
+          "sha1": "699a93ed6a3c78a0dd471a39d2944080627bea5a",
+          "md5": "db87415fd943612242161546f227ff5a"
+        }
+      ]
+    },
+    {
+      "name": "sourcesElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "hudlib-ui-1.1.0+mc26.1-sources.jar",
+          "url": "hudlib-ui-1.1.0+mc26.1-sources.jar",
+          "size": 163479,
+          "sha512": "a2a211a9c5e348b6647697b0d86bcfd5ef09ce4bd5351e10e9d6b75770de06d02a5e6aa91ba88c61a8bf78372af313c100f421966f206d970b5f3c398e39b79a",
+          "sha256": "4af6012d255b24171bdb9ffbefae2b21f272aea98e619c2df9a8af33d40bb6b5",
+          "sha1": "ba1c966c161e7b501986c4367296fc339462cd58",
+          "md5": "ba1bc9eefea175ed5b708600af20a28e"
+        }
+      ]
+    }
+  ]
+}
