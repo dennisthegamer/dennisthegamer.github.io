@@ -1,0 +1,6 @@
+# Alles unter maven/ ist ein publiziertes Artefakt und muss BYTE-GENAU so
+# ausgeliefert werden, wie es publiziert wurde. Ohne -text normalisiert Git bei
+# core.autocrlf=true die Zeilenenden von .pom/.xml/.module beim Commit auf LF --
+# der ausgelieferte Inhalt weicht dann von der mitgelieferten .sha1 ab, die ueber
+# die urspruenglichen Bytes berechnet wurde. Das hat real 54 Dateien getroffen.
+maven/** -text
