@@ -1,0 +1,98 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "de.dennisthegamer",
+    "module": "hudlib-ui-neoforge",
+    "version": "1.2.1+mc26.1",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "9.6.1"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 25,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "de.dennisthegamer",
+          "module": "hudlib-core",
+          "version": {
+            "requires": "1.2.1"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "hudlib-ui-neoforge-1.2.1+mc26.1.jar",
+          "url": "hudlib-ui-neoforge-1.2.1+mc26.1.jar",
+          "size": 172336,
+          "sha512": "db377f7bf080f89284485ec4611e95f51f52b71fcd7152776066d03d47c34ae1b8c79056566656f484ec4f2d3b964a9d7dbe1e908f50054326337531de3efb68",
+          "sha256": "943f9d6d407547b2fe7055ace3f3864c0068433849c699020df2e536cf1fdee3",
+          "sha1": "889bb870a0d4bc25de7c1ccfd2b3927d19074448",
+          "md5": "7df2247f540dfec774cfd0b7c9935f02"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 25,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "de.dennisthegamer",
+          "module": "hudlib-core",
+          "version": {
+            "requires": "1.2.1"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "hudlib-ui-neoforge-1.2.1+mc26.1.jar",
+          "url": "hudlib-ui-neoforge-1.2.1+mc26.1.jar",
+          "size": 172336,
+          "sha512": "db377f7bf080f89284485ec4611e95f51f52b71fcd7152776066d03d47c34ae1b8c79056566656f484ec4f2d3b964a9d7dbe1e908f50054326337531de3efb68",
+          "sha256": "943f9d6d407547b2fe7055ace3f3864c0068433849c699020df2e536cf1fdee3",
+          "sha1": "889bb870a0d4bc25de7c1ccfd2b3927d19074448",
+          "md5": "7df2247f540dfec774cfd0b7c9935f02"
+        }
+      ]
+    },
+    {
+      "name": "sourcesElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "hudlib-ui-neoforge-1.2.1+mc26.1-sources.jar",
+          "url": "hudlib-ui-neoforge-1.2.1+mc26.1-sources.jar",
+          "size": 167212,
+          "sha512": "5250f3686f71dce55f453a87592f55a924449e5e8900f663a8deb6e8ba51138f31bda674cd87c13d82ba138b79643078b25162bf1e4c2387f190c259387b6ec2",
+          "sha256": "2320fbbce3404be41e77c2018accac096f52792df7f7c04ae9ab4b16e150f07b",
+          "sha1": "5f0328e4fd4a64839f4db5a3697f7f66957b4efa",
+          "md5": "de8ab2f5d2681d1b0949015cd0803465"
+        }
+      ]
+    }
+  ]
+}
